@@ -1,0 +1,18 @@
+{
+  "extends": "astro/tsconfigs/strict",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "jsxImportSource": "react",
+    "baseUrl": ".",
+    "paths": {
+      "@layouts/*": ["./src/layouts/*"],
+      "@shadcn-components/*": ["./src/components/shadcn-ui/*"],
+      "@common-components/*": ["./src/components/common/*"],
+      "@core-lib/*": ["./src/lib/core"],
+      "@styles/*": ["./src/styles/*"],
+      "@/*": [
+        "./src/*"
+      ]
+    }
+  }
+}
