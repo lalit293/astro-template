@@ -38,7 +38,7 @@ You can choose from two fonts _**Inter**_ or _**Geist**_.
 
 To use **Inter** just follow the steps.
 
-1. Add the code bellow in the frontmatter of the file `src/layouts/Layout.astro`
+1. Add the code below in the frontmatter of the file `src/layouts/Layout.astro`
 
 ```typescript
 import '@fontsource-variable/inter';
