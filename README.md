@@ -2,7 +2,9 @@
 
 > This template is not complete yet!
 
-I created this template because I wanted to just fork/clone a repo and start making a project or start using the default template which comes with astro **without much configuration**, but the latter is not possible because Astro's default template does not look like what I want (and I don't want to use themes, if I would be more focused on styling). So, this repo is like the first scenario, where you can just clone/fork the repo and start making amazing projects.
+You and me know its not easy to start a project, first you have to run the initialization command, install the dependencies, configure the project and if needed you also have to write code to configure some dependencies.
+
+So to eliminate some of the tasks which I mentioned above I created this template.
 
 ## Tools (used in this template)
 
