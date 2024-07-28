@@ -1,6 +1,6 @@
 # Astro-Template
 
-> This template is not complete yet!
+> This template is not completed yet!
 
 You and me know its not easy to start a project, first you have to run the initialization command, install the dependencies, configure the project and if needed you also have to write code to configure some dependencies.
 
