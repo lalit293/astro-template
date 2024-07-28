@@ -12,6 +12,30 @@ This template uses [Bun](https://bun.sh/) as the package manager, [Biomejs](http
 
 *by the way, you can also make components with Astro.
 
+### Fonts
+
+You can choose from two fonts _**Inter**_ or _**Geist**_.
+
+To use **Inter** just follow the steps.
+
+1. Add the code bellow in the frontmatter of the file `src/layouts/Layout.astro`
+
+```typescript
+import '@fontsource-variable/inter';
+```
+
+2. Add the code below at the end of the file and inside the style tag.
+
+```css
+body {
+  font-family: 'Inter Variable';
+}
+```
+
+And if you want to use **Geist** then its already configured for you.
+
+If in case you want to use some other font then you have to install it as a package or link via CDN and you will be good to go.
+
 ## Installation
 
 1. Clone the repo
