@@ -8,7 +8,7 @@ So to eliminate some of the tasks which I mentioned above I created this templat
 
 ## Tools (used in this template)
 
-This template uses [Bun](https://bun.sh/) as the package manager, [Biomejs](https://biomejs.dev/) for linting and formatting, [React](https://react.dev/) and [Qwik](https://qwik.dev/) for creating components*, [Shadcn-UI](https://ui.shadcn.com/) as the Component Library, [Tailwind](https://tailwindcss.com/) for styling (you can also use css or sass), [Astro](https://astro.build/) as the JS Framework and [Typescript](https://www.typescriptlang.org/) for its powers.
+This template uses [Bun](https://bun.sh/) as the package manager, [Biomejs](https://biomejs.dev/) for linting and formatting, [React](https://react.dev/) and [Qwik](https://qwik.dev/) for creating components*, [Shadcn-UI](https://ui.shadcn.com/) as the Component Library, [Tailwind](https://tailwindcss.com/) for styling (you can also use css or sass), [Astro](https://astro.build/) as the JS Framework and [Typescript](https://www.typescriptlang.org/) for type checking.
 
 *by the way, you can also make components with Astro.
 
