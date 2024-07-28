@@ -61,7 +61,7 @@ Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page
 In the `src/components/shadcn-ui` folder there are components provided by [Shadcn-UI Library](https://ui.shadcn.com/).
 In the `src/components/common` folder you can put any of your  components.
 
-While `src/lib/` folder serves you some utilities (in the folder `src/lib/shadcn-ui/`provided by [Shadcn-UI](https://ui.shadcn.com/)) and you can make your own ones in the folder `src/lib/core`.
+While `src/lib/` folder serves you some utilities and you can make your own ones in the folder `src/lib/core`.
 
 Any static assets, like images, can be placed in the `public/` directory.
 
