@@ -8,10 +8,12 @@ So to eliminate some of the tasks which I mentioned above I created this templat
 
 ## Installation
 
-1. Clone the repo
+1. Fork the repo.
+
+1. Clone the forked repo.
 
 ```bash
-git clone https://github.com/lalit293/astro-template.git
+git clone <something>
 ```
 
 1. Install Dependencies
