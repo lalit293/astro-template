@@ -56,7 +56,7 @@ body {
 
 And if you want to use **Geist** then its already configured for you.
 
-If in case you want to use some other font then you have to install it as a package or link via CDN and you will be good to go.
+If in case you want to use some other font then you have to install it as a package or link via CDN and you will be good to go. (This is a very brief description, in reality it's not that much easy.)
 
 ## 🚀 Project Structure
 
