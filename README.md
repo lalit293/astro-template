@@ -58,6 +58,10 @@ And if you want to use **Geist** then its already configured for you.
 
 If in case you want to use some other font then you have to install it as a package or link via CDN and you will be good to go. (This is a very brief description, in reality it's not that much easy.)
 
+### Shadcn-UI
+
+This project is configured with shadcn-ui and you can easily add more components. But note that this project has most of the needed components preinstalled. If you think that some most used components are not present then please open a pull request.
+
 ## 🚀 Project Structure
 
 Inside of your Astro project, you'll see the following folders and files:
