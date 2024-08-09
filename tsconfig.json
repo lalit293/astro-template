@@ -9,6 +9,7 @@
       "@shadcn-components/*": ["./src/components/shadcn-ui/ui/*"],
       "@common-components/*": ["./src/components/common/*"],
       "@core-lib/*": ["./src/lib/core"],
+      "@shadcn-lib/*": ["./src/lib/shadcn-ui/*"],
       "@styles/*": ["./src/styles/*"],
       "@/*": [
         "./src/*"
