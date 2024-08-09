@@ -6,7 +6,7 @@
     "baseUrl": ".",
     "paths": {
       "@layouts/*": ["./src/layouts/*"],
-      "@shadcn-components/*": ["./src/components/shadcn-ui/*"],
+      "@shadcn-components/*": ["./src/components/shadcn-ui/ui/*"],
       "@common-components/*": ["./src/components/common/*"],
       "@core-lib/*": ["./src/lib/core"],
       "@styles/*": ["./src/styles/*"],
