@@ -1,13 +1,13 @@
 import * as React from "react"
 import { Moon, Sun } from "lucide-react"
 
-import { Button } from "@shadcn-components/ui/button"
+import { Button } from "@shadcn-components/button"
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from "@shadcn-components/ui/dropdown-menu"
+} from "@shadcn-components/dropdown-menu"
 
 export function ThemeToggle() {
   const [theme, setThemeState] = React.useState<
