@@ -1,7 +1,7 @@
 import * as React from "react"
 import { Moon, Sun } from "lucide-react"
 
-import { Button } from "@shadcn-components/button"
+import { Button } from "@shadcn/button"
 
 export function ThemeToggle() {
   const [theme, setThemeState] = React.useState<
