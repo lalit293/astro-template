@@ -1,0 +1,47 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Tour",
+  "steps": [
+    {
+      "file": "tsconfig.json",
+      "description": "First lets talk about aliases. And this file you all know.",
+      "line": 1
+    },
+    {
+      "file": "tsconfig.json",
+      "description": "This alias points to layouts you make.",
+      "line": 8
+    },
+    {
+      "file": "tsconfig.json",
+      "description": "*`@shadcn/*`* is the alias pointing to the components provided by Shadcn UI.",
+      "line": 9
+    },
+    {
+      "file": "tsconfig.json",
+      "description": "*`@common/*`*, the folder which this alias points to is the folder where your common components will live. I have not given it a descriptive name like *`@common-components/*`* because its longer and aliases are there for shortening import syntaxes so it should be short.\r\n\r\nThe same is for the previous alias.",
+      "line": 10
+    },
+    {
+      "file": "tsconfig.json",
+      "description": "*`@core-lib/*`* points to some lib utils you will make while making a site.\r\n\r\nImportant thing here to note is that because I didn't get anything important to put in that folder so when I commited it and pushed the commit to github that folder didn't get pushed.\r\n\r\nAll this means that, that core folder does not exist on your machine so you will have to make it manually\r\nand then put anything you would like to put in there.",
+      "line": 11
+    },
+    {
+      "file": "tsconfig.json",
+      "description": "This alias points to the folder where all the utils provided by Shadcn UI live.",
+      "line": 12
+    },
+    {
+      "file": "tsconfig.json",
+      "description": "Here all your global styles live.",
+      "line": 13
+    },
+    {
+      "file": "biome.jsonc",
+      "description": "Next we have is formatting and linting.\r\n\r\nFor that we have [Biome](https://biomejs.dev/).\r\n\r\nYou can edit this file and change your how formatting and linting works. You should also visit the [Biome Website](https://biomejs.dev/).",
+      "line": 1
+    }
+  ],
+  "ref": "e6e489f0e8da8e2692140daff7bce0d08b41a2e6"
+}
