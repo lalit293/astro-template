@@ -8,6 +8,11 @@
       "line": 1
     },
     {
+      "file": "biome.jsonc",
+      "description": "That's the end for now and start making something 😄.",
+      "line": 13
+    },
+    {
       "file": "tsconfig.json",
       "description": "This alias points to layouts you make.",
       "line": 8
@@ -43,5 +48,6 @@
       "line": 1
     }
   ],
-  "ref": "e6e489f0e8da8e2692140daff7bce0d08b41a2e6"
+  "ref": "e6e489f0e8da8e2692140daff7bce0d08b41a2e6",
+  "isPrimary": true
 }
