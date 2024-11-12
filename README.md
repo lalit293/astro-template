@@ -1,7 +1,5 @@
 # Astro-Template
 
-> This template is not completed yet!
-
 Project initialization is not easy, first you have to run the initialization command, install the dependencies, configure the project and if needed you also have to write code to configure some dependencies.
 
 What if all of that could be done with just a `git clone`?
