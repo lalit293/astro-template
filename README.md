@@ -2,9 +2,12 @@
 
 > This template is not completed yet!
 
-You and me know its not easy to start a project, first you have to run the initialization command, install the dependencies, configure the project and if needed you also have to write code to configure some dependencies.
+Project initialization is not easy, first you have to run the initialization command, install the dependencies, configure the project and if needed you also have to write code to configure some dependencies.
 
-So to eliminate some of the tasks which I mentioned above I created this template.
+What if all of that could be done with just a `git clone`?
+
+Well you could do that with this repo it has most of the things you want from
+a starter template.
 
 ## Installation
 
@@ -13,7 +16,7 @@ So to eliminate some of the tasks which I mentioned above I created this templat
 1. Clone the forked repo.
 
 ```bash
-git clone <something>
+git clone <your_repo_url>
 ```
 
 1. Install Dependencies
@@ -28,15 +31,15 @@ bun install
 bun run dev
 ```
 
-## Tools (used in this template)
+## Tools
 
-This template uses [Bun](https://bun.sh/) as the package manager, [Biomejs](https://biomejs.dev/) for linting and formatting, [React](https://react.dev/) for creating components*, [Shadcn-UI](https://ui.shadcn.com/) as the Component Library, [Tailwind](https://tailwindcss.com/) for styling (you can also use css or sass), [Astro](https://astro.build/) as the JS Framework and [Typescript](https://www.typescriptlang.org/) for type checking.
+This template uses [Bun](https://bun.sh/) as the package manager, [Biomejs](https://biomejs.dev/) for linting and formatting, [React](https://react.dev/) for creating components*, [Shadcn-UI](https://ui.shadcn.com/) as the Component Library, [Tailwind](https://tailwindcss.com/) for styling (you can also use css or scss), [Astro](https://astro.build/) as the Framework and [TypeScript](https://www.typescriptlang.org/) for... lets be honest no one uses JavaScript now.
 
-*by the way, you can also make components with Astro.
+> *by the way, you can also make components with Astro.
 
 ### Fonts
 
-You can choose from two fonts _**Inter**_ or _**Geist**_.
+You can choose from two preinstalled fonts _**Inter**_ or _**Geist**_.
 
 To use **Inter** just follow the steps.
 
@@ -64,6 +67,8 @@ This project is configured with shadcn-ui and you can easily add more components
 
 ## 🚀 Project Structure
 
+> [NOTE]
+> I would suggest you to have a deep look at tsconfig.json.
 Inside of your Astro project, you'll see the following folders and files:
 
 ```text
@@ -89,22 +94,22 @@ Inside of your Astro project, you'll see the following folders and files:
 Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
 
 In the `src/components/shadcn-ui` folder there are components provided by [Shadcn-UI Library](https://ui.shadcn.com/).
-In the `src/components/common` folder you can put any of your  components.
+In the `src/components/common` folder you can put any of your components.
 
-While `src/lib/` folder serves you some utilities and you can make your own ones in the folder `src/lib/core`.
+While `src/lib/` folder serves you some utilities and you can make your own in the folder `src/lib/core`.
 
 Any static assets, like images, can be placed in the `public/` directory.
 
 ## 🧞 Commands
 
-All commands are run from the root of the project, from a terminal:
+All commands are run from the root of the project:
 
 | Command                   | Action                                           |
 | :------------------------ | :----------------------------------------------- |
 | `bun install`             | Installs dependencies                            |
 | `bun run dev`             | Starts local dev server at `localhost:4321`      |
 | `bun run fmt`             | Format files via [Biome](https://biomejs.dev/)   |
-| `bun run lint`            | Linter via [Biome](https://biomejs.dev/)         |
+| `bun run lint`            | Lints via [Biome](https://biomejs.dev/)         |
 | `bun run build`           | Build your production site to `./dist/`          |
 | `bun run preview`         | Preview your build locally, before deploying     |
 | `bun run astro ...`       | Run CLI commands like `astro add`, `astro check` |
